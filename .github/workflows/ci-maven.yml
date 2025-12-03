@@ -22,9 +22,9 @@ jobs:
           cache: 'maven'
 
       - name: Build project with Maven
-        working-directory: Projeto-DevSecOps-Mvn/Projeto-DevSecOps-Mvn
+        working-directory: Projeto-DevSecOps-Mvn
         run: mvn -B package
 
       - name: Run tests
-        working-directory: Projeto-DevSecOps-Mvn/Projeto-DevSecOps-Mvn
+        working-directory: Projeto-DevSecOps-Mvn
         run: mvn test
